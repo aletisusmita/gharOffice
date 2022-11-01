@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import chooseHall from "./component/Basics/chooseHall";
+import Moviebar from "./component/Basics/moviebar";
+// import Seatbooking from "./component/Basics/seatBooking";
+// import UseState from "./component/Hooks/useState";
+// import UseEffect from "./component/Hooks/useEffect";
+// import UseReducer from "./component/Hooks/useReducer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  // return <UseReducer />;
+ return <Moviebar />
+// return <Seatbooking />
+//  return <chooseHall />
+};
 
 export default App;
