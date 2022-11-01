@@ -1,12 +1,9 @@
 import React from "react";
-// import chooseHall from "./chooseHall";
-// import {userHistory} from "react-dom"
-// import ReactDOM from "react-dom";
+
 
 const MovieCard = ({ menuData }) => {
 
-  // let history = userHistory()
-  //   console.log(menuData);
+  
 
   return (
     <>
