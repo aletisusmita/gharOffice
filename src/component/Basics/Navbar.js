@@ -3,7 +3,7 @@ import React from "react";
 const navbar = ({ filterItem, menuList }) => {
   return (
     <>
-        {/* <h2> WelCome to movie ticket Zone  </h2> */}
+       
       <nav className="navbar">
         <div className="btn-group">
           {menuList.map((curElem) => {
